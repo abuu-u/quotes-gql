@@ -12,7 +12,7 @@ import Login from './login';
 import client from '../client';
 
 const App = () => {
-  const [authorized, setAuthorized] = useState(true);
+  const [authorized, setAuthorized] = useState(false);
 
   const login = () => {
     setAuthorized(true);
